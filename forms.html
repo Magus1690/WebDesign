@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <Title>Login</Title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Primera pagina web</h1>
+        </header>
+
+        <form>
+            
+            <label for="username">Username</label><br>
+                <input type="text" id="username"><br>
+            
+            <label for="password">Password</label><br>
+                <input type="password" id="password"><br>
+        
+            <button type="button" onselect="Lola" onclick="validar()">Submit</button>
+
+            <script>
+            function validar() {
+                let username = document.getElementById("username").value;
+
+                if (username === "Mario") {
+                    alert(username);
+                } else {
+                    alert("Usuario incorrecto");
+                }
+            }
+            </script>
+
+    </form>
+
+    <footer>
+
+        <p>Este sitio fue creado por Mario Bahena</p>
+    </footer>
+    
+</body>
+
+</html>
