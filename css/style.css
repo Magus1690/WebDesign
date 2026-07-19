@@ -5,4 +5,10 @@ h1 {
 
 div{
     display: inline-block;
+    text-align: center;
+}
+
+label{
+    display: block;
+    text-align: center;
 }
