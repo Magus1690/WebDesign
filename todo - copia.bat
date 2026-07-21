@@ -1,23 +1,23 @@
 @echo off
 
 set /p mensaje=Mensaje de actualizacion: 
-echo
+echo.
 echo #####################
 
 git add .
-echo
+echo.
 echo #####################
 
 git commit -m "%mensaje%"
-echo
+echo.
 echo #####################
 
 git push
-echo
+echo.
 echo #####################
 
 git status
-echo
+echo.
 echo #####################
 
 pause
