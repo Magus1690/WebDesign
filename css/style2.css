@@ -1,0 +1,41 @@
+
+.color{
+    height: 100px;
+    width : 100px;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.gris{
+    background-color: gray;
+}
+
+.negro{
+    background-color: black;
+}
+
+.blanco{
+    background-color: white;
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.rosa{
+    background-color: pink;
+}
